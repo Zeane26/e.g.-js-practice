@@ -1,0 +1,29 @@
+
+let firstFavNum = 14;
+
+let secondFavNum = 26; 
+
+// Addition
+let addition = firstFavNum + secondFavNum;
+
+// Subtraction
+let subtraction = firstFavNum - secondFavNum;
+
+// Multiplication
+let multiplication = firstFavNum * secondFavNum;
+
+// Division
+let division = firstFavNum / secondFavNum;
+
+// Modulus (Remainder)
+let modulus = firstFavNum % secondFavNum;
+
+// Exponentiation (Power)
+let exponentiation = firstFavNum ** secondFavNum;
+
+console.log("Addition: " + addition);
+console.log("Subtraction: " + subtraction);
+console.log("Multiplication: " + multiplication);
+console.log("Division: " + division);
+console.log("Modulus: " + modulus);
+console.log("Exponentiation: " + exponentiation);
