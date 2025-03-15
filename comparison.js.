@@ -1,0 +1,30 @@
+
+let firstFavNumb = 14; // Replace with your actual favorite number
+
+let secondFavNumb = 26; // Replace with your actual second favorite number
+
+let greaterThan = firstFavNumb > secondFavNumb;
+
+let lessThan = firstFavNumb < secondFavNumb;
+
+let greaterThanOrEqualTo = firstFavNumb >= secondFavNumb;
+
+let lessThanOrEqualTo = firstFavNumb <= secondFavNumb;
+
+let strictEquality = firstFavNumb === secondFavNumb;
+
+let looseEquality = firstFavNumb == secondFavNumb;
+
+let strictInequality = firstFavNumb !== secondFavNumb;
+
+let looseInequality = firstFavNumb != secondFavNumb;
+
+console.log("Greater than: " + greaterThan);
+console.log("Less than: " + lessThan);
+console.log("Greater than or equal to: " + greaterThanOrEqualTo);
+console.log("Less than or equal to: " + lessThanOrEqualTo);
+console.log("Strict equality (===): " + strictEquality);
+console.log("Loose equality (==): " + looseEquality);
+console.log("Strict inequality (!==): " + strictInequality);
+console.log("Loose inequality (!=): " + looseInequality);
+
